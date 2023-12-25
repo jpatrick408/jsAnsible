@@ -1,6 +1,6 @@
-[deb-based]
+[debBased]
 172.16.25.7
 172.16.25.17
 
-[fed-based]
+[fedBased]
 172.16.25.18
