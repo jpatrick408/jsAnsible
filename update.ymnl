@@ -13,3 +13,5 @@
     - name: dnf
       dnf:
         update_cache: yes
+        update_only: yes
+        state: latest
