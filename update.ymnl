@@ -7,3 +7,9 @@
       apt:
         update_cache: yes
         upgrade: 'yes'
+- hosts: fedBased
+  become: yes
+  tasks:
+    - name: dnf
+      dnf:
+        update_cache: yes
